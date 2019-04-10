@@ -1,0 +1,16 @@
+PODS:
+  - HMHClassKitHelper (0.1.0)
+
+DEPENDENCIES:
+  - HMHClassKitHelper (from `../`)
+
+EXTERNAL SOURCES:
+  HMHClassKitHelper:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HMHClassKitHelper: c2ecc335f3de1ec27018495fea0287e7913b9c8b
+
+PODFILE CHECKSUM: e826cb4ed269f0c51983e2393420d14e57ca61f8
+
+COCOAPODS: 1.6.1

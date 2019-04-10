@@ -1,0 +1,188 @@
+{
+    "displayOrder" : 0,
+    "title" : "Hamlet",
+    "identifier" : "hamlet",
+    "typeInt" : 0,
+    "children" : [
+        {
+            "displayOrder" : 0,
+            "title" : "Act 1",
+            "identifier" : "act1",
+            "typeInt" : 0,
+            "children" : [
+                {
+                    "displayOrder" : 0,
+                    "title" : "Scene 1",
+                    "identifier" : "scene1",
+                    "typeInt" : 0,
+                    "contentPath" : "http://shakespeare.mit.edu/hamlet/hamlet.1.1.html",
+                },
+                {
+                    "displayOrder" : 1,
+                    "title" : "Scene 2",
+                    "identifier" : "scene2",
+                    "typeInt" : 0,
+                    "contentPath" : "http://shakespeare.mit.edu/hamlet/hamlet.1.2.html",
+                },
+                {
+                    "displayOrder" : 2,
+                    "title" : "Scene 3",
+                    "identifier" : "scene3",
+                    "typeInt" : 0,
+                    "contentPath" : "http://shakespeare.mit.edu/hamlet/hamlet.1.3.html",
+                },
+                {
+                    "displayOrder" : 3,
+                    "title" : "Scene 4",
+                    "identifier" : "scene4",
+                    "typeInt" : 0,
+                    "contentPath" : "http://shakespeare.mit.edu/hamlet/hamlet.1.4.html",
+                },
+                {
+                    "displayOrder" : 4,
+                    "title" : "Scene 5",
+                    "identifier" : "scene5",
+                    "typeInt" : 0,
+                    "contentPath" : "http://shakespeare.mit.edu/hamlet/hamlet.1.5.html",
+                }
+            ]
+        },
+        {
+            "displayOrder" : 1,
+            "title" : "Act 2",
+            "identifier" : "act2",
+            "typeInt" : 0,
+            "children" : [
+                {
+                    "displayOrder" : 0,
+                    "title" : "Scene 1",
+                    "identifier" : "scene1",
+                    "typeInt" : 0,
+                    "contentPath" : "http://shakespeare.mit.edu/hamlet/hamlet.2.1.html",
+                },
+                {
+                    "displayOrder" : 1,
+                    "title" : "Scene 2",
+                    "identifier" : "scene2",
+                    "typeInt" : 0,
+                    "contentPath" : "http://shakespeare.mit.edu/hamlet/hamlet.2.2.html",
+                }
+            ]
+        },
+        {
+            "displayOrder" : 2,
+            "title" : "Act 3",
+            "identifier" : "act3",
+            "typeInt" : 0,
+            "children" : [
+                {
+                    "displayOrder" : 0,
+                    "title" : "Scene 1",
+                    "identifier" : "scene1",
+                    "typeInt" : 0,
+                    "contentPath" : "http://shakespeare.mit.edu/hamlet/hamlet.3.1.html",
+                },
+                {
+                    "displayOrder" : 1,
+                    "title" : "Scene 2",
+                    "identifier" : "scene2",
+                    "typeInt" : 0,
+                    "contentPath" : "http://shakespeare.mit.edu/hamlet/hamlet.3.2.html",
+                },
+                {
+                    "displayOrder" : 2,
+                    "title" : "Scene 3",
+                    "identifier" : "scene3",
+                    "typeInt" : 0,
+                    "contentPath" : "http://shakespeare.mit.edu/hamlet/hamlet.3.3.html",
+                },
+                {
+                    "displayOrder" : 3,
+                    "title" : "Scene 4",
+                    "identifier" : "scene4",
+                    "typeInt" : 0,
+                    "contentPath" : "http://shakespeare.mit.edu/hamlet/hamlet.3.4.html",
+                }
+            ]
+        },
+        {
+            "displayOrder" : 3,
+            "title" : "Act 4",
+            "identifier" : "act4",
+            "typeInt" : 0,
+            "children" : [
+                {
+                    "displayOrder" : 0,
+                    "title" : "Scene 1",
+                    "identifier" : "scene1",
+                    "typeInt" : 0,
+                    "contentPath" : "http://shakespeare.mit.edu/hamlet/hamlet.4.1.html",
+                },
+                {
+                    "displayOrder" : 1,
+                    "title" : "Scene 2",
+                    "identifier" : "scene2",
+                    "typeInt" : 0,
+                    "contentPath" : "http://shakespeare.mit.edu/hamlet/hamlet.4.2.html",
+                },
+                {
+                    "displayOrder" : 2,
+                    "title" : "Scene 3",
+                    "identifier" : "scene3",
+                    "typeInt" : 0,
+                    "contentPath" : "http://shakespeare.mit.edu/hamlet/hamlet.4.3.html",
+                },
+                {
+                    "displayOrder" : 3,
+                    "title" : "Scene 4",
+                    "identifier" : "scene4",
+                    "typeInt" : 0,
+                    "contentPath" : "http://shakespeare.mit.edu/hamlet/hamlet.4.4.html",
+                },
+                {
+                    "displayOrder" : 4,
+                    "title" : "Scene 5",
+                    "identifier" : "scene5",
+                    "typeInt" : 0,
+                    "contentPath" : "http://shakespeare.mit.edu/hamlet/hamlet.4.5.html",
+                },
+                {
+                    "displayOrder" : 5,
+                    "title" : "Scene 6",
+                    "identifier" : "scene6",
+                    "typeInt" : 0,
+                    "contentPath" : "http://shakespeare.mit.edu/hamlet/hamlet.4.6.html",
+                },
+                {
+                    "displayOrder" : 6,
+                    "title" : "Scene 7",
+                    "identifier" : "scene7",
+                    "typeInt" : 0,
+                    "contentPath" : "http://shakespeare.mit.edu/hamlet/hamlet.4.7.html",
+                }
+            ]
+        },
+        {
+            "displayOrder" : 4,
+            "title" : "Act 5",
+            "identifier" : "act5",
+            "typeInt" : 0,
+            "children" : [
+                {
+                    "displayOrder" : 0,
+                    "title" : "Scene 1",
+                    "identifier" : "scene1",
+                    "typeInt" : 0,
+                    "contentPath" : "http://shakespeare.mit.edu/hamlet/hamlet.5.1.html",
+                },
+                {
+                    "displayOrder" : 1,
+                    "title" : "Scene 2",
+                    "identifier" : "scene2",
+                    "typeInt" : 0,
+                    "contentPath" : "http://shakespeare.mit.edu/hamlet/hamlet.5.2.html",
+                }
+            ]
+        }
+    ]
+}

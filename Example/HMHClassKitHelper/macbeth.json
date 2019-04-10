@@ -1,0 +1,244 @@
+{
+    "displayOrder" : 1,
+    "title" : "Macbeth",
+    "identifier" : "macbeth",
+    "typeInt" : 0,
+    "children" : [
+        {
+            "displayOrder" : 0,
+            "title" : "Act 1",
+            "identifier" : "act1",
+            "typeInt" : 0,
+            "children" : [
+                {
+                    "displayOrder" : 0,
+                    "title" : "Scene 1",
+                    "identifier" : "scene1",
+                    "typeInt" : 0,
+                    "contentPath" : "http://shakespeare.mit.edu/macbeth/macbeth.1.1.html",
+                },
+                {
+                    "displayOrder" : 1,
+                    "title" : "Scene 2",
+                    "identifier" : "scene2",
+                    "typeInt" : 0,
+                    "contentPath" : "http://shakespeare.mit.edu/macbeth/macbeth.1.2.html",
+                },
+                {
+                    "displayOrder" : 2,
+                    "title" : "Scene 3",
+                    "identifier" : "scene3",
+                    "typeInt" : 0,
+                    "contentPath" : "http://shakespeare.mit.edu/macbeth/macbeth.1.3.html",
+                },
+                {
+                    "displayOrder" : 3,
+                    "title" : "Scene 4",
+                    "identifier" : "scene4",
+                    "typeInt" : 0,
+                    "contentPath" : "http://shakespeare.mit.edu/macbeth/macbeth.1.4.html",
+                },
+                {
+                    "displayOrder" : 4,
+                    "title" : "Scene 5",
+                    "identifier" : "scene5",
+                    "typeInt" : 0,
+                    "contentPath" : "http://shakespeare.mit.edu/macbeth/macbeth.1.5.html",
+                },
+                {
+                    "displayOrder" : 5,
+                    "title" : "Scene 6",
+                    "identifier" : "scene6",
+                    "typeInt" : 0,
+                    "contentPath" : "http://shakespeare.mit.edu/macbeth/macbeth.1.6.html",
+                },
+                {
+                    "displayOrder" : 6,
+                    "title" : "Scene 7",
+                    "identifier" : "scene7",
+                    "typeInt" : 0,
+                    "contentPath" : "http://shakespeare.mit.edu/macbeth/macbeth.1.7.html",
+                }
+            ]
+        },
+        {
+            "displayOrder" : 1,
+            "title" : "Act 2",
+            "identifier" : "act2",
+            "typeInt" : 0,
+            "children" : [
+                {
+                    "displayOrder" : 0,
+                    "title" : "Scene 1",
+                    "identifier" : "scene1",
+                    "typeInt" : 0,
+                    "contentPath" : "http://shakespeare.mit.edu/macbeth/macbeth.2.1.html",
+                },
+                {
+                    "displayOrder" : 1,
+                    "title" : "Scene 2",
+                    "identifier" : "scene2",
+                    "typeInt" : 0,
+                    "contentPath" : "http://shakespeare.mit.edu/macbeth/macbeth.2.2.html",
+                },
+                {
+                    "displayOrder" : 2,
+                    "title" : "Scene 3",
+                    "identifier" : "scene3",
+                    "typeInt" : 0,
+                    "contentPath" : "http://shakespeare.mit.edu/macbeth/macbeth.2.3.html",
+                },
+                {
+                    "displayOrder" : 3,
+                    "title" : "Scene 4",
+                    "identifier" : "scene4",
+                    "typeInt" : 0,
+                    "contentPath" : "http://shakespeare.mit.edu/macbeth/macbeth.2.4.html",
+                }
+            ]
+        },
+        {
+            "displayOrder" : 2,
+            "title" : "Act 3",
+            "identifier" : "act3",
+            "typeInt" : 0,
+            "children" : [
+                {
+                    "displayOrder" : 0,
+                    "title" : "Scene 1",
+                    "identifier" : "scene1",
+                    "typeInt" : 0,
+                    "contentPath" : "http://shakespeare.mit.edu/macbeth/macbeth.3.1.html",
+                },
+                {
+                    "displayOrder" : 1,
+                    "title" : "Scene 2",
+                    "identifier" : "scene2",
+                    "typeInt" : 0,
+                    "contentPath" : "http://shakespeare.mit.edu/macbeth/macbeth.3.2.html",
+                },
+                {
+                    "displayOrder" : 2,
+                    "title" : "Scene 3",
+                    "identifier" : "scene3",
+                    "typeInt" : 0,
+                    "contentPath" : "http://shakespeare.mit.edu/macbeth/macbeth.3.3.html",
+                },
+                {
+                    "displayOrder" : 3,
+                    "title" : "Scene 4",
+                    "identifier" : "scene4",
+                    "typeInt" : 0,
+                    "contentPath" : "http://shakespeare.mit.edu/macbeth/macbeth.3.4.html",
+                },
+                {
+                    "displayOrder" : 4,
+                    "title" : "Scene 5",
+                    "identifier" : "scene5",
+                    "typeInt" : 0,
+                    "contentPath" : "http://shakespeare.mit.edu/macbeth/macbeth.3.5.html",
+                },
+                {
+                    "displayOrder" : 5,
+                    "title" : "Scene 6",
+                    "identifier" : "scene6",
+                    "typeInt" : 0,
+                    "contentPath" : "http://shakespeare.mit.edu/macbeth/macbeth.3.6.html",
+                }
+            ]
+        },
+        {
+            "displayOrder" : 3,
+            "title" : "Act 4",
+            "identifier" : "act4",
+            "typeInt" : 0,
+            "children" : [
+                {
+                    "displayOrder" : 0,
+                    "title" : "Scene 1",
+                    "identifier" : "scene1",
+                    "typeInt" : 0,
+                    "contentPath" : "http://shakespeare.mit.edu/macbeth/macbeth.4.1.html",
+                },
+                {
+                    "displayOrder" : 1,
+                    "title" : "Scene 2",
+                    "identifier" : "scene2",
+                    "typeInt" : 0,
+                    "contentPath" : "http://shakespeare.mit.edu/macbeth/macbeth.4.2.html",
+                },
+                {
+                    "displayOrder" : 2,
+                    "title" : "Scene 3",
+                    "identifier" : "scene3",
+                    "typeInt" : 0,
+                    "contentPath" : "http://shakespeare.mit.edu/macbeth/macbeth.4.3.html",
+                }
+            ]
+        },
+        {
+            "displayOrder" : 4,
+            "title" : "Act 5",
+            "identifier" : "act5",
+            "typeInt" : 0,
+            "children" : [
+                {
+                    "displayOrder" : 0,
+                    "title" : "Scene 1",
+                    "identifier" : "scene1",
+                    "typeInt" : 0,
+                    "contentPath" : "http://shakespeare.mit.edu/macbeth/macbeth.5.1.html",
+                },
+                {
+                    "displayOrder" : 1,
+                    "title" : "Scene 2",
+                    "identifier" : "scene2",
+                    "typeInt" : 0,
+                    "contentPath" : "http://shakespeare.mit.edu/macbeth/macbeth.5.2.html",
+                },
+                {
+                    "displayOrder" : 2,
+                    "title" : "Scene 3",
+                    "identifier" : "scene3",
+                    "typeInt" : 0,
+                    "contentPath" : "http://shakespeare.mit.edu/macbeth/macbeth.5.3.html",
+                },
+                {
+                    "displayOrder" : 3,
+                    "title" : "Scene 4",
+                    "identifier" : "scene4",
+                    "typeInt" : 0,
+                    "contentPath" : "http://shakespeare.mit.edu/macbeth/macbeth.5.4.html",
+                },
+                {
+                    "displayOrder" : 4,
+                    "title" : "Scene 5",
+                    "identifier" : "scene5",
+                    "typeInt" : 0,
+                    "contentPath" : "http://shakespeare.mit.edu/macbeth/macbeth.5.5.html",
+                },
+                {
+                    "displayOrder" : 5,
+                    "title" : "Scene 6",
+                    "identifier" : "scene6",
+                    "typeInt" : 0,
+                    "contentPath" : "http://shakespeare.mit.edu/macbeth/macbeth.5.6.html",
+                },
+                {
+                    "displayOrder" : 6,
+                    "title" : "Scene 7",
+                    "identifier" : "scene7",
+                    "typeInt" : 0,
+                    "contentPath" : "http://shakespeare.mit.edu/macbeth/macbeth.5.7.html",
+                },
+                {
+                    "displayOrder" : 7,
+                    "title" : "Scene 8",
+                    "identifier" : "scene8",
+                    "typeInt" : 0,
+                    "contentPath" : "http://shakespeare.mit.edu/macbeth/macbeth.5.8.html",
+                }
+            ]
+        }
+    ]
+}
