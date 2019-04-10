@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HMHClassKitHelper_Example' do
+  pod 'HMHClassKitHelper', :path => '../'
+
+  target 'HMHClassKitHelper_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
