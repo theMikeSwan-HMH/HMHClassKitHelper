@@ -28,6 +28,8 @@
 		9632C8D0225F8E01000A36D3 /* ClassKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9632C8CF225F8E01000A36D3 /* ClassKit.framework */; };
 		9632C8D3225F8E02000A36D3 /* ContextRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9632C8D2225F8E02000A36D3 /* ContextRequestHandler.swift */; };
 		9632C8D8225F8E02000A36D3 /* HMHClassKitHelper_ExtensionExample.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9632C8CE225F8E01000A36D3 /* HMHClassKitHelper_ExtensionExample.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		96591DB122652FC30099ACD8 /* ContentFiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96591DB022652FC30099ACD8 /* ContentFiles.swift */; };
+		96591DB22265304E0099ACD8 /* ContentFiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96591DB022652FC30099ACD8 /* ContentFiles.swift */; };
 		A00BC0E9EE30BF31D445E837 /* Pods_HMHClassKitHelper_Example_HMHClassKitHelper_ExtensionExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEFD52585A5B99B57B4E7515 /* Pods_HMHClassKitHelper_Example_HMHClassKitHelper_ExtensionExample.framework */; };
 /* End PBXBuildFile section */
 
@@ -97,6 +99,7 @@
 		9632C8D2225F8E02000A36D3 /* ContextRequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextRequestHandler.swift; sourceTree = "<group>"; };
 		9632C8D4225F8E02000A36D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9632C8D5225F8E02000A36D3 /* HMHClassKitHelper_ExtensionExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HMHClassKitHelper_ExtensionExample.entitlements; sourceTree = "<group>"; };
+		96591DB022652FC30099ACD8 /* ContentFiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentFiles.swift; sourceTree = "<group>"; };
 		AEFD52585A5B99B57B4E7515 /* Pods_HMHClassKitHelper_Example_HMHClassKitHelper_ExtensionExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HMHClassKitHelper_Example_HMHClassKitHelper_ExtensionExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBBBD18B9003C0D01D7E0A1A /* HMHClassKitHelper.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HMHClassKitHelper.podspec; path = ../HMHClassKitHelper.podspec; sourceTree = "<group>"; };
 		D4339CDE5EB691B9868EE45D /* Pods_HMHClassKitHelper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HMHClassKitHelper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -163,6 +166,7 @@
 				9632C8AC225E73F0000A36D3 /* Cells */,
 				9632C8A1225E73BF000A36D3 /* DataModel.swift */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
+				96591DB022652FC30099ACD8 /* ContentFiles.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -511,6 +515,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96591DB122652FC30099ACD8 /* ContentFiles.swift in Sources */,
 				9632C8B0225E7409000A36D3 /* SceneTableViewCell.swift in Sources */,
 				9632C8AA225E73EB000A36D3 /* SceneViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
@@ -537,6 +542,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9632C8D3225F8E02000A36D3 /* ContextRequestHandler.swift in Sources */,
+				96591DB22265304E0099ACD8 /* ContentFiles.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

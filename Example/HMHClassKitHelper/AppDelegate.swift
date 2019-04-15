@@ -18,18 +18,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     let classKitHelper = ClassKitHelper.shared
     
-    /// Supplies an array of all the file paths that should be included in the content.
-    ///
-    /// Keeping all of the files in one place makes it easy to add additional plays later.
-    ///
-    /// - Returns: An array of file paths to the json files for the plays.
-    static func contentFiles() -> [String] {
-        let files = [Bundle.main.path(forResource: "hamlet", ofType: "json"),
-                     Bundle.main.path(forResource: "macbeth", ofType: "json")]
-        
-        return files.compactMap({ $0 })
-    }
-    
     /// All the plays that are part of the app's content.
     let plays: [Play] = {
         var plays = [Play]()
@@ -48,7 +36,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         playController.plays = plays
         
         // We decalare the ClassKit contexts on a background thread to keep from blocking the main UI
-        let files = AppDelegate.contentFiles()
+        let files = contentFiles()
         DispatchQueue.global().async {
             for file in files {
                 self.classKitHelper.addJSON(file: file)

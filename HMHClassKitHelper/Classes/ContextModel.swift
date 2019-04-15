@@ -1,6 +1,6 @@
 //
 //  ContextModel.swift
-//  GoMathAcademy
+//  HMHClassKitHelper
 //
 //  Created by Swan, Michael on 3/5/19.
 //  Copyright © 2019 Houghton Mifflin Harcourt. All rights reserved.

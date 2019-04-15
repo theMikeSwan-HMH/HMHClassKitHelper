@@ -1,6 +1,6 @@
 //
 //  ClassKitHelper.swift
-//  GoMathAcademy
+//  HMHClassKitHelper
 //
 //  Created by Swan, Michael on 4/17/18.
 //  Copyright © 2018 Houghton Mifflin Harcourt. All rights reserved.
