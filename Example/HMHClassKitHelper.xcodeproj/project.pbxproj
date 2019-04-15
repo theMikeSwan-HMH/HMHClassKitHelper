@@ -25,6 +25,10 @@
 		9632C8B6225E7425000A36D3 /* hamlet.json in Resources */ = {isa = PBXBuildFile; fileRef = 9632C8B3225E7425000A36D3 /* hamlet.json */; };
 		9632C8B7225E7425000A36D3 /* macbeth.json in Resources */ = {isa = PBXBuildFile; fileRef = 9632C8B4225E7425000A36D3 /* macbeth.json */; };
 		9632C8B8225E7425000A36D3 /* Int+RomanNumeral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9632C8B5225E7425000A36D3 /* Int+RomanNumeral.swift */; };
+		9632C8D0225F8E01000A36D3 /* ClassKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9632C8CF225F8E01000A36D3 /* ClassKit.framework */; };
+		9632C8D3225F8E02000A36D3 /* ContextRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9632C8D2225F8E02000A36D3 /* ContextRequestHandler.swift */; };
+		9632C8D8225F8E02000A36D3 /* HMHClassKitHelper_ExtensionExample.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9632C8CE225F8E01000A36D3 /* HMHClassKitHelper_ExtensionExample.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A00BC0E9EE30BF31D445E837 /* Pods_HMHClassKitHelper_Example_HMHClassKitHelper_ExtensionExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEFD52585A5B99B57B4E7515 /* Pods_HMHClassKitHelper_Example_HMHClassKitHelper_ExtensionExample.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +39,36 @@
 			remoteGlobalIDString = 607FACCF1AFB9204008FA782;
 			remoteInfo = HMHClassKitHelper;
 		};
+		9632C8D6225F8E02000A36D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9632C8CD225F8E01000A36D3;
+			remoteInfo = HMHClassKitHelper_ExtensionExample;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9632C8DC225F8E02000A36D3 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				9632C8D8225F8E02000A36D3 /* HMHClassKitHelper_ExtensionExample.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		03F9EE4F6C07F6CC48E03B10 /* Pods_HMHClassKitHelper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HMHClassKitHelper_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		07A0B046907DAB9648C43829 /* Pods-HMHClassKitHelper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HMHClassKitHelper_Tests.release.xcconfig"; path = "Target Support Files/Pods-HMHClassKitHelper_Tests/Pods-HMHClassKitHelper_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		15DEFDCCB80356A60D6AEF37 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		160B235E06B0699C421515F1 /* Pods-HMHClassKitHelper_Example-HMHClassKitHelper_ExtensionExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HMHClassKitHelper_Example-HMHClassKitHelper_ExtensionExample.release.xcconfig"; path = "Target Support Files/Pods-HMHClassKitHelper_Example-HMHClassKitHelper_ExtensionExample/Pods-HMHClassKitHelper_Example-HMHClassKitHelper_ExtensionExample.release.xcconfig"; sourceTree = "<group>"; };
 		1D115ED06770DD203B2314BD /* Pods-HMHClassKitHelper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HMHClassKitHelper_Example.debug.xcconfig"; path = "Target Support Files/Pods-HMHClassKitHelper_Example/Pods-HMHClassKitHelper_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		493BEE5CE4455FFB1A6AA56C /* Pods-HMHClassKitHelper_Example-HMHClassKitHelper_ExtensionExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HMHClassKitHelper_Example-HMHClassKitHelper_ExtensionExample.debug.xcconfig"; path = "Target Support Files/Pods-HMHClassKitHelper_Example-HMHClassKitHelper_ExtensionExample/Pods-HMHClassKitHelper_Example-HMHClassKitHelper_ExtensionExample.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* HMHClassKitHelper_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HMHClassKitHelper_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -65,6 +92,12 @@
 		9632C8B3225E7425000A36D3 /* hamlet.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hamlet.json; sourceTree = "<group>"; };
 		9632C8B4225E7425000A36D3 /* macbeth.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = macbeth.json; sourceTree = "<group>"; };
 		9632C8B5225E7425000A36D3 /* Int+RomanNumeral.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+RomanNumeral.swift"; sourceTree = "<group>"; };
+		9632C8CE225F8E01000A36D3 /* HMHClassKitHelper_ExtensionExample.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = HMHClassKitHelper_ExtensionExample.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		9632C8CF225F8E01000A36D3 /* ClassKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ClassKit.framework; path = System/Library/Frameworks/ClassKit.framework; sourceTree = SDKROOT; };
+		9632C8D2225F8E02000A36D3 /* ContextRequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextRequestHandler.swift; sourceTree = "<group>"; };
+		9632C8D4225F8E02000A36D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9632C8D5225F8E02000A36D3 /* HMHClassKitHelper_ExtensionExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HMHClassKitHelper_ExtensionExample.entitlements; sourceTree = "<group>"; };
+		AEFD52585A5B99B57B4E7515 /* Pods_HMHClassKitHelper_Example_HMHClassKitHelper_ExtensionExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HMHClassKitHelper_Example_HMHClassKitHelper_ExtensionExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBBBD18B9003C0D01D7E0A1A /* HMHClassKitHelper.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HMHClassKitHelper.podspec; path = ../HMHClassKitHelper.podspec; sourceTree = "<group>"; };
 		D4339CDE5EB691B9868EE45D /* Pods_HMHClassKitHelper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HMHClassKitHelper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA946252E1392DD8110C80B8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -87,6 +120,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9632C8CB225F8E01000A36D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9632C8D0225F8E01000A36D3 /* ClassKit.framework in Frameworks */,
+				A00BC0E9EE30BF31D445E837 /* Pods_HMHClassKitHelper_Example_HMHClassKitHelper_ExtensionExample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -97,6 +139,7 @@
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for HMHClassKitHelper */,
 				607FACE81AFB9204008FA782 /* Tests */,
+				9632C8D1225F8E01000A36D3 /* HMHClassKitHelper_ExtensionExample */,
 				607FACD11AFB9204008FA782 /* Products */,
 				8782154ECEF16A456E895CAE /* Pods */,
 				CFED6C892DC1B460A4699CC1 /* Frameworks */,
@@ -108,6 +151,7 @@
 			children = (
 				607FACD01AFB9204008FA782 /* HMHClassKitHelper_Example.app */,
 				607FACE51AFB9204008FA782 /* HMHClassKitHelper_Tests.xctest */,
+				9632C8CE225F8E01000A36D3 /* HMHClassKitHelper_ExtensionExample.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -172,6 +216,8 @@
 				84A413D0CE5A57FDDC973099 /* Pods-HMHClassKitHelper_Example.release.xcconfig */,
 				63C9082E8F87B4E7C2437838 /* Pods-HMHClassKitHelper_Tests.debug.xcconfig */,
 				07A0B046907DAB9648C43829 /* Pods-HMHClassKitHelper_Tests.release.xcconfig */,
+				493BEE5CE4455FFB1A6AA56C /* Pods-HMHClassKitHelper_Example-HMHClassKitHelper_ExtensionExample.debug.xcconfig */,
+				160B235E06B0699C421515F1 /* Pods-HMHClassKitHelper_Example-HMHClassKitHelper_ExtensionExample.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -206,11 +252,23 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
+		9632C8D1225F8E01000A36D3 /* HMHClassKitHelper_ExtensionExample */ = {
+			isa = PBXGroup;
+			children = (
+				9632C8D2225F8E02000A36D3 /* ContextRequestHandler.swift */,
+				9632C8D4225F8E02000A36D3 /* Info.plist */,
+				9632C8D5225F8E02000A36D3 /* HMHClassKitHelper_ExtensionExample.entitlements */,
+			);
+			path = HMHClassKitHelper_ExtensionExample;
+			sourceTree = "<group>";
+		};
 		CFED6C892DC1B460A4699CC1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				D4339CDE5EB691B9868EE45D /* Pods_HMHClassKitHelper_Example.framework */,
 				03F9EE4F6C07F6CC48E03B10 /* Pods_HMHClassKitHelper_Tests.framework */,
+				9632C8CF225F8E01000A36D3 /* ClassKit.framework */,
+				AEFD52585A5B99B57B4E7515 /* Pods_HMHClassKitHelper_Example_HMHClassKitHelper_ExtensionExample.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -227,10 +285,12 @@
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
 				7B330F132EE3990D0476ACA2 /* [CP] Embed Pods Frameworks */,
+				9632C8DC225F8E02000A36D3 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				9632C8D7225F8E02000A36D3 /* PBXTargetDependency */,
 			);
 			name = HMHClassKitHelper_Example;
 			productName = HMHClassKitHelper;
@@ -256,13 +316,31 @@
 			productReference = 607FACE51AFB9204008FA782 /* HMHClassKitHelper_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		9632C8CD225F8E01000A36D3 /* HMHClassKitHelper_ExtensionExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9632C8DB225F8E02000A36D3 /* Build configuration list for PBXNativeTarget "HMHClassKitHelper_ExtensionExample" */;
+			buildPhases = (
+				EDC0F1CA6346AD1FE2990199 /* [CP] Check Pods Manifest.lock */,
+				9632C8CA225F8E01000A36D3 /* Sources */,
+				9632C8CB225F8E01000A36D3 /* Frameworks */,
+				9632C8CC225F8E01000A36D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HMHClassKitHelper_ExtensionExample;
+			productName = HMHClassKitHelper_ExtensionExample;
+			productReference = 9632C8CE225F8E01000A36D3 /* HMHClassKitHelper_ExtensionExample.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		607FACC81AFB9204008FA782 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
+				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
@@ -281,6 +359,11 @@
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
+					9632C8CD225F8E01000A36D3 = {
+						CreatedOnToolsVersion = 10.2;
+						DevelopmentTeam = NJTZ42342L;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "HMHClassKitHelper" */;
@@ -298,6 +381,7 @@
 			targets = (
 				607FACCF1AFB9204008FA782 /* HMHClassKitHelper_Example */,
 				607FACE41AFB9204008FA782 /* HMHClassKitHelper_Tests */,
+				9632C8CD225F8E01000A36D3 /* HMHClassKitHelper_ExtensionExample */,
 			);
 		};
 /* End PBXProject section */
@@ -316,6 +400,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		607FACE31AFB9204008FA782 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9632C8CC225F8E01000A36D3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -391,6 +482,28 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HMHClassKitHelper_Example/Pods-HMHClassKitHelper_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		EDC0F1CA6346AD1FE2990199 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HMHClassKitHelper_Example-HMHClassKitHelper_ExtensionExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -419,6 +532,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9632C8CA225F8E01000A36D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9632C8D3225F8E02000A36D3 /* ContextRequestHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -426,6 +547,11 @@
 			isa = PBXTargetDependency;
 			target = 607FACCF1AFB9204008FA782 /* HMHClassKitHelper_Example */;
 			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
+		};
+		9632C8D7225F8E02000A36D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9632C8CD225F8E01000A36D3 /* HMHClassKitHelper_ExtensionExample */;
+			targetProxy = 9632C8D6225F8E02000A36D3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -558,8 +684,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1D115ED06770DD203B2314BD /* Pods-HMHClassKitHelper_Example.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = HMHClassKitHelper_Example.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = NJTZ42342L;
 				INFOPLIST_FILE = HMHClassKitHelper/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
@@ -577,8 +705,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 84A413D0CE5A57FDDC973099 /* Pods-HMHClassKitHelper_Example.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = HMHClassKitHelper_Example.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = NJTZ42342L;
 				INFOPLIST_FILE = HMHClassKitHelper/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
@@ -632,6 +762,61 @@
 			};
 			name = Release;
 		};
+		9632C8D9225F8E02000A36D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 493BEE5CE4455FFB1A6AA56C /* Pods-HMHClassKitHelper_Example-HMHClassKitHelper_ExtensionExample.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = HMHClassKitHelper_ExtensionExample/HMHClassKitHelper_ExtensionExample.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = NJTZ42342L;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = HMHClassKitHelper_ExtensionExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.HMHClassKitHelper-Example.HMHClassKitHelper-ExtensionExample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9632C8DA225F8E02000A36D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 160B235E06B0699C421515F1 /* Pods-HMHClassKitHelper_Example-HMHClassKitHelper_ExtensionExample.release.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = HMHClassKitHelper_ExtensionExample/HMHClassKitHelper_ExtensionExample.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NJTZ42342L;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = HMHClassKitHelper_ExtensionExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.HMHClassKitHelper-Example.HMHClassKitHelper-ExtensionExample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -658,6 +843,15 @@
 			buildConfigurations = (
 				607FACF31AFB9204008FA782 /* Debug */,
 				607FACF41AFB9204008FA782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9632C8DB225F8E02000A36D3 /* Build configuration list for PBXNativeTarget "HMHClassKitHelper_ExtensionExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9632C8D9225F8E02000A36D3 /* Debug */,
+				9632C8DA225F8E02000A36D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -5,7 +5,9 @@ target 'HMHClassKitHelper_Example' do
 
   target 'HMHClassKitHelper_Tests' do
     inherit! :search_paths
-
-    
+  end
+  
+  target 'HMHClassKitHelper_ExtensionExample' do
+    pod 'HMHClassKitHelper', :path => '../'
   end
 end
