@@ -21,7 +21,6 @@ public extension ContextRequestHandlerProtocol {
         var error: Error? = nil
         
         guard let model = helper.contextModel(for: Array(context.identifierPath.dropFirst())) else {
-            // TODO: Need to set the error to something non-nil here
             error = ClassKitError.contextNotFound(identifierPath: Array(context.identifierPath.dropFirst()))
             os_log(.error, log: self.log, "Unable to find a context model matching the path: %@", context.identifierPath)
             completion(error)
