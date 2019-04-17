@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HMHClassKitHelper'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of HMHClassKitHelper.'
+  s.version          = '0.9.0'
+  s.summary          = 'A library for making ClassKit a little easier to work with.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+`HMHClassKitHelper` is designed to take most of the boilerplate code required for ClassKit out of your code. It can be used both in apps and in Context Provider Extensions.
                        DESC
 
   s.homepage         = 'https://github.com/theMikeSwan-HMH/HMHClassKitHelper'
@@ -28,7 +28,7 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/theMikeSwan-HMH/HMHClassKitHelper.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '11.4'
 
   s.source_files = 'HMHClassKitHelper/Classes/**/*'
   
