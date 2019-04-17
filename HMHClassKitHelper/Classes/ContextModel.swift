@@ -16,7 +16,7 @@ public struct ContextModel: Codable {
     /// App-assigned identifier. This identifier should work across users and devices and be unique with regards to its siblings within its parent.
     ///
     /// The identifier could be used to embed information later used for deep linking. For example: @em hydrogen-element, or @em chapter-1.
-    let identifier: String
+    public let identifier: String
     
     /// Title of this context.
     ///
@@ -34,7 +34,7 @@ public struct ContextModel: Codable {
     /// A string with the raw value for the `topic` property. See `CLSContextType` for possible values that will convert to an actual `CLSContextTopic`.
     let topicString: String?
     
-    let children: [ContextModel]?
+    public let children: [ContextModel]?
     
     /// Alternative deep link URL using universal links.
     ///
