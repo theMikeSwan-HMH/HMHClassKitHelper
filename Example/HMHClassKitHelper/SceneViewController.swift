@@ -51,7 +51,7 @@ class SceneViewController: UIViewController, UITextViewDelegate {
                 }
                 return
             }
-            // Since we have just started an fresh activity we set the progress to 0 and indicate that the practice quiz has not been completed.
+            // Since we have just started a fresh activity we set the progress to 0 and indicate that the practice quiz has not been completed.
             self.setProgress(0.0, on: activity)
             let activityItem = CLSBinaryItem(identifier: self.practiceIdentifier, title: self.practiceTitle, type: .yesNo)
             activityItem.value = false
