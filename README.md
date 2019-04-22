@@ -147,13 +147,13 @@ startActivity(for: identifierPath) { (context, activity, error) in
 }
 ```
 
-When the student is done working on a context we need to tell ClassKit about it:
+##### When the student is done working on a context we need to tell ClassKit about it:
 
 ```swift
 stopActivity(for: identifierPath)
 ```
 
-When we want to tell ClassKit about the student completing a binary type task (such as simply completing a task or completing a pass/fail task that has no score):
+##### When we want to tell ClassKit about the student completing a binary type task (such as simply completing a task or completing a pass/fail task that has no score):
 
 ```swift
 let activityItem = CLSBinaryItem(identifier: self.practiceIdentifier, title: self.practiceTitle, type: .yesNo)
@@ -161,14 +161,14 @@ activityItem.value = true
 addAdditional(activityItem: activityItem, for: identifierPath)
 ```
 
-To report a student's progress though a task such as reading:
+##### To report a student's progress though a task such as reading:
 
 ```swift
 let progress = …
 setProgress(progress, for: identifierPath)
 ```
 
-To set the primary activity item as a score:
+##### To set the primary activity item as a score:
 
 ```swift
 let score = …

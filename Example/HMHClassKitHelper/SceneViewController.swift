@@ -42,6 +42,7 @@ class SceneViewController: UIViewController, UITextViewDelegate {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
+        // Since we have appeared on screen the student must be starting to read this scene so we need to start an activity for the correspnding context.
         startActivity(for: identifierPath) { (context, activity, error) in
             guard let activity = activity else {
                 if let error = error as? ClassKitError {
@@ -52,6 +53,7 @@ class SceneViewController: UIViewController, UITextViewDelegate {
                 return
             }
             // Since we have just started a fresh activity we set the progress to 0 and indicate that the practice quiz has not been completed.
+            // In a production app we would want to store the user's progress and wether they completed the practice quiz so we could set the right values here.
             self.setProgress(0.0, on: activity)
             let activityItem = CLSBinaryItem(identifier: self.practiceIdentifier, title: self.practiceTitle, type: .yesNo)
             activityItem.value = false
@@ -63,16 +65,20 @@ class SceneViewController: UIViewController, UITextViewDelegate {
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
         // We are going away so the student can't make anymore progress in this context right now.
+        // Note that not all apps (in fact very few) will have an entire context in one view controller.
+        // Most likely a single context will continue over several view controllers.
         stopActivity(for: identifierPath)
     }
     
+    /// Sets the title with play, act, and scene. Sticks the scene's content into the text view.
     private func setupView() {
-        guard let scene = scene, let textView = textView else { return }
+        guard let play = play, let act = act, let scene = scene, let textView = textView else { return }
         textView.attributedText = scene.contents
-        self.title = scene.title
+        self.title = "\(play.title) \(act.displayTitle) \(scene.title)"
         self.navigationItem.rightBarButtonItems = [quizButton, practiceButton]
     }
 
+    /// Simulates the user having completed a practice quiz for the scene.
     @IBAction func practice(_ sender: Any) {
         let alert = UIAlertController(title: "Practice Done!", message: "In this sample app we don't have any actual quizzes. The practice quiz is a done or not done setting that has been set to done now.", preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: "Okay", style: .default, handler: nil))
@@ -83,6 +89,9 @@ class SceneViewController: UIViewController, UITextViewDelegate {
         activityItem.value = true
         addAdditional(activityItem: activityItem, for: identifierPath)
     }
+    
+    
+    /// Simulates the user having taken a graded quiz on the scene. The user is given the option to simulate a passing or failing grade.
     @IBAction func takeQuiz(_ sender: Any) {
         let alert = UIAlertController(title: "Practice Done!", message: "In this sample app we don't have any actual quizzes. The quiz is percentage from 0-100%. Select an option below for either a random passing or failing( <60%) score.", preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: "Pass", style: .default, handler: { (_) in
@@ -102,6 +111,7 @@ class SceneViewController: UIViewController, UITextViewDelegate {
         
     }
     
+    /// We use how far the user has scrolled to determine their progress in the scene, not a perfect system but an excellent demo for an example app.
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
         let position = textView.contentOffset.y + textView.frame.size.height
         let total = textView.contentSize.height
@@ -115,6 +125,7 @@ class SceneViewController: UIViewController, UITextViewDelegate {
 }
 
 extension SceneViewController: ClassKitEnabled {
+    /// The identifier path to the current scene.
     var identifierPath: [String] {
         get {
             guard let play = play, let act = act, let scene = scene else { return [String]() }
@@ -122,7 +133,7 @@ extension SceneViewController: ClassKitEnabled {
         }
     }
     
-    // In a shipping app the error handling should likely let the user know there was an issue…
+    /// In a shipping app the error handling should likely let the user know there was an issue…
     func reportError(_ error: Error) {
         guard let error = error as? ClassKitError else { return }
         switch error {

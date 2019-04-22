@@ -35,7 +35,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let playController = navController.viewControllers[0] as! PlaysCollectionViewController
         playController.plays = plays
         
-        // We decalare the ClassKit contexts on a background thread to keep from blocking the main UI
+        // We decalare the ClassKit contexts on a background thread to keep from blocking the main UI.
+        // Our simple example is unlikely to take any noticable time but an app with more content could take much longer.
         let files = contentFiles()
         DispatchQueue.global().async {
             for file in files {
@@ -46,30 +47,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         return true
     }
 
-    func applicationWillResignActive(_ application: UIApplication) {
-        // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
-        // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
-    }
-
-    func applicationDidEnterBackground(_ application: UIApplication) {
-        // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
-        // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
-    }
-
-    func applicationWillEnterForeground(_ application: UIApplication) {
-        // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
-    }
-
-    func applicationDidBecomeActive(_ application: UIApplication) {
-        // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
-    }
-
-    func applicationWillTerminate(_ application: UIApplication) {
-        // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
-    }
-
     // This is where calls come in when a student taps on an assignment in Schoolwork. The inbound userActivity will have isClassKitDeepLink set to true
     func application(_ application: UIApplication, continue userActivity: NSUserActivity, restorationHandler: @escaping ([UIUserActivityRestoring]?) -> Void) -> Bool {
+        // First we want to see if this is a ClassKit deep link or not.
+        // If it is we will need the identifier path to go to the right place.
         guard userActivity.isClassKitDeepLink, var identifierPath = userActivity.contextIdentifierPath else { return false }
         // The first bit of the identifier path is the main app context, we don't need that bit
         identifierPath = Array(identifierPath.dropFirst())
