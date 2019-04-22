@@ -2,9 +2,9 @@
 `HMHClassKitHelper` is a library for making ClassKit a little easier to use.
 
 [![CI Status](https://img.shields.io/travis/theMikeSwan-HMH/HMHClassKitHelper.svg?style=flat)](https://travis-ci.org/theMikeSwan-HMH/HMHClassKitHelper)
-[![Version](https://img.shields.io/cocoapods/v/HMHClassKitHelper.svg?style=flat)](https://cocoapods.org/pods/HMHClassKitHelper)
-[![License](https://img.shields.io/cocoapods/l/HMHClassKitHelper.svg?style=flat)](https://cocoapods.org/pods/HMHClassKitHelper)
-[![Platform](https://img.shields.io/cocoapods/p/HMHClassKitHelper.svg?style=flat)](https://cocoapods.org/pods/HMHClassKitHelper)
+[![Version](https://img.shields.io/badge/pod-v0.9.0-blue.svg?style=flat)](https://github.com/theMikeSwan-HMH/HMHPods/blob/master/HMHClassKitHelper/0.9.0/HMHClassKitHelper.podspec)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/theMikeSwan-HMH/HMHPods/blob/master/HMHClassKitHelper/0.9.0/HMHClassKitHelper.podspec)
+[![Platform](https://img.shields.io/badge/platform-ios-lightgrey.svg?style=flat)](https://github.com/theMikeSwan-HMH/HMHPods/blob/master/HMHClassKitHelper/0.9.0/HMHClassKitHelper.podspec)
 
 ## Example
 
